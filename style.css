@@ -14,17 +14,30 @@ header{
     height: 3%;
     background-color: red;
 }
+main{
+    height: 89%;
+}
+nav {
+    background-color: black;
+    height: 8%;
+    
+    
+    
+}
 .flex-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 0.5%;
-    margin-left: 1%;
+    
+    
     
     
     
     
 }
+ main{
+    padding: 0 0.5%;
+ }
 
 .preview {
     
@@ -60,42 +73,50 @@ a, i {
 .row{
     display: flex;
     flex-wrap: wrap ;
-}
-.center > i {
-    font-size: 26px;
-    margin-right: 2.7%;
-    width: calc((100% / 8) - 3%) ;
-  s
-    
-
- }
-
-.center > h3 {
-    font-size: 15px;
-    margin-right: 2.8%;
-    margin-top: 1%;
-    width: calc((100% / 8) - 3%) ;
-    color: white;
-    
-    ;
-
+    align-items: center;
+    justify-content: center;
 }
 
-.left > i {
-    font-size: 25px;
-    color: white;
-    width: calc(100% / 2);
+.left{ 
+    width: 10%
+}
+
+.right{
+    background-color: lightslategray;
+    color: red;
+    text-align: center;
+    line-height: 65px;
+    width: 10%;
+    
     
 }
 
-.left > h3 {
-    font-size: 18px;
+h3 {
     color: white;
-    width: calc(100% / 2);
-    text-align: left;
-    padding-top: 2%;
-    margin-top: 1.5%;
+   
 }
+
+.center {
+    width: 80%;
+    
+}
+.tool-bar-button{
+    width: calc((100% / 8) - 24% );
+    
+    
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-button{
+    width: calc(100% - 2);
+    text-align: center;
+    margin: 0 3%;
+}
+
 
 
 
